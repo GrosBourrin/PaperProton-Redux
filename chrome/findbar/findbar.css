@@ -1,10 +1,8 @@
-.findbar-container
-{
+.findbar-container {
 	overflow: visible !important;
 }
 
-.findbar-textbox
-{
+.findbar-textbox {
 	color: var(--lwt-toolbar-field-color) !important;
 	background-color: transparent !important;
 	background-repeat: no-repeat !important;
@@ -18,8 +16,7 @@
 	outline: none !important;
 }
 
-hbox[anonid="findbar-textbox-wrapper"]
-{
+hbox[anonid="findbar-textbox-wrapper"] {
 	background-color: var(--toolbar-field-background-color) !important;
 	border-radius: 16px !important;
 	position: relative !important;
@@ -29,13 +26,11 @@ hbox[anonid="findbar-textbox-wrapper"]
 	transition: background-color .1s var(--ease-basic) !important;
 }
 
-hbox[anonid="findbar-textbox-wrapper"]:hover
-{
+hbox[anonid="findbar-textbox-wrapper"]:hover {
 	background-color: var(--toolbar-field-hover-background-color) !important;
 }
 
-hbox[anonid="findbar-textbox-wrapper"]:focus-within
-{
+hbox[anonid="findbar-textbox-wrapper"]:focus-within {
 	background-color: var(--toolbar-field-focus-background-color) !important;
 	/* won't work in a var... */
 	border: 2px solid -moz-accent-color !important;
@@ -44,8 +39,7 @@ hbox[anonid="findbar-textbox-wrapper"]:focus-within
 	height: 30px !important;
 }
 
-hbox[anonid="findbar-textbox-wrapper"] toolbarbutton
-{
+hbox[anonid="findbar-textbox-wrapper"] toolbarbutton {
 	border-radius: 99px !important;
 	border: 0 !important;
 	width: 24px !important;
@@ -58,23 +52,19 @@ hbox[anonid="findbar-textbox-wrapper"] toolbarbutton
 	box-shadow: none !important;
 }
 
-hbox[anonid="findbar-textbox-wrapper"] toolbarbutton[disabled]
-{
+hbox[anonid="findbar-textbox-wrapper"] toolbarbutton[disabled] {
 	display: none !important;
 }
 
-hbox[anonid="findbar-textbox-wrapper"] toolbarbutton .toolbarbutton-text
-{
+hbox[anonid="findbar-textbox-wrapper"] toolbarbutton .toolbarbutton-text {
 	visibility: collapse !important;
 }
 
-hbox[anonid="findbar-textbox-wrapper"] toolbarbutton:not([disabled]):hover
-{
+hbox[anonid="findbar-textbox-wrapper"] toolbarbutton:not([disabled]):hover {
 	background-color: var(--toolbarbutton-hover-background) !important;
 }
 
-hbox[anonid="findbar-textbox-wrapper"] toolbarbutton:not([disabled]):hover:active
-{
+hbox[anonid="findbar-textbox-wrapper"] toolbarbutton:not([disabled]):hover:active {
 	background-color: var(--toolbarbutton-active-background) !important;
 	transition-duration: 0 !important;
 }
